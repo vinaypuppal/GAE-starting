@@ -21,8 +21,13 @@ handlers:
 - url: /static/images
   static_dir: static/images
 
+<<<<<<< HEAD
 - url: /static/font
   static_dir: static/font
+=======
+- url: /static/fonts
+  static_dir: static/fonts
+>>>>>>> cedb47bb7399b9f4d6fd304a07423412d82d63f2
 
 - url: .*
   script: main.app
